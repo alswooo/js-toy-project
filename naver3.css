@@ -1,0 +1,236 @@
+.logo {
+    width: 160px;
+    height: 32px;
+    margin: 0px 262.5px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 33px;
+}
+
+.ID {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.id {
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.id-box {
+    display: block;
+    width: 450px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+.PW1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.pw1 {
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.pw1-box {
+    display: block;
+    width: 450px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+.PW2 {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.pw2 {
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.pw2-box {
+    display: block;
+    width: 450px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+.NAME {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.name {
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.name-box {
+    display: block;
+    width: 450px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+.BIRTH {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.birth {
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.birth-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.yy-box {
+    width: 140px;
+    height: 46px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.mm-select {
+    width: 140px;
+    height: 52px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.dd-box {
+    width: 140px;
+    height: 46px;
+    font-size: 15px;
+}
+
+.GENDER {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.gender {
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.gender-select {
+    display: block;
+    width: 460px;
+    height: 59px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.EMAIL {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.email {
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.email-box {
+    display: block;
+    width: 450px;
+    height: 52px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.MOBILE {
+    text-align: left;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.mobile {
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.country-select {
+    display: block;
+    width: 460px;
+    height: 51px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.tel-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.phone-number {
+    width: 325px;
+    height: 46px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.btn {
+    width: 115px;
+    height: 52px;
+    background: #03c75a;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.join {
+    display: block;
+    width: 460px;
+    height: 51px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: #03c75a;
+    color: white;
+    border: none;
+    font-size: 18px;
+}

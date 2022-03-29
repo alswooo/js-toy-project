@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="naver3.css">
+    <title>NAVER3</title>
+</head>
+<body>
+    <div class="header">
+        <a href="https://www.naver.com">
+            <img src="NAVER_CI_Green1.png" class="logo">
+        </a>
+    </div>
+
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- contnet -->
+        <div class="content">
+            <!-- ID -->
+            <div class="ID">
+                <div class="id">아이디</div>
+                <input type="text" class="id-box">
+            </div>
+            <!-- PW1 -->
+            <div class="PW1">
+                <span class="pw1">비밀번호</span>
+                <input type="password" class="pw1-box">
+            </div>
+            <!-- PW2 -->
+            <div class="PW2">
+                <span class="pw2">비밀번호 재확인</span>
+                <input type="password" class="pw2-box">
+            </div>
+            <!-- NAME -->
+            <div class="NAME">
+                <span class="name">이름</span>
+                <input type="text" class="name-box">
+            </div>
+            <!-- BIRTH -->
+            <div class="BIRTH">
+                <span class="birth">생년월일</span>
+                <div class="birth-wrap">
+                    <!-- BIRTH_YY -->
+                    <div class="birth-yy">
+                        <input
+                            type="text"
+                            class="yy-box"
+                            maxlength="4"
+                            placeholder="년(4자)">
+                    </div>
+                    <!-- BIRTH_MM -->
+                    <div class="bir-mm">
+                        <select class="mm-select">
+                            <option value="month">월</option>
+                            <option value="january">1</option>
+                            <option value="february">2</option>
+                            <option value="march">3</option>
+                            <option value="april">4</option>
+                            <option value="may">5</option>
+                            <option value="june">6</option>
+                            <option value="july">7</option>
+                            <option value="august">8</option>
+                            <option value="september">9</option>
+                            <option value="october">10</option>
+                            <option value="november">11</option>
+                            <option value="december">12</option>
+                        </select>
+                    </div>
+                    <!-- BIRTH_DD -->
+                    <div class="bir-dd">
+                        <input
+                            type="text"
+                            class="dd-box"
+                            maxlength="2"
+                            placeholder="일">
+                    </div>
+                </div>
+            </div>
+                <!-- GENDER -->
+                <div class="GENDER">
+                    <span class="gender">성별</span>
+                    <select class="gender-select">
+                        <option>성별</option>
+                        <option value="male">남자</option>
+                        <option value="female">여자</option>
+                        <option value="no-select">선택안함</option>
+                    </select>
+                </div>
+                <!-- EMAIL -->
+                <div class="EMAIL">
+                    <span class="email">본인확인 이메일(선택)</span>
+                    <input 
+                        type="email"
+                        placeholder="선택입력"
+                        class="email-box">
+                </div>
+            </div>
+            <!-- MOBILE -->
+            <div class="MOBILE">
+                <span class="mobile">휴대전화</span>
+                <select class="country-select">
+                    <option value="korea">대한민국 +82</option>
+                    <option value="denmark">덴마크 +45</option>
+                </select>
+                <div class="tel-btn">
+                    <input
+                        type="tel"
+                        class="phone-number"
+                        placeholder="전화번호 입력">
+                    <button class="btn">인증번호 받기</button>
+                </div>    
+            </div>
+            <!-- JOIN BTN -->
+            <button class="join">가입하기</button>
+        </div>
+    </div>
+</body>
+</html>
